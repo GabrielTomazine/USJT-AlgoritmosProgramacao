@@ -36,5 +36,7 @@ public class Ex8 {
         }
 
         System.out.printf("Valores em ordem crescente: %d, %d, %d", a, b, c);
+
+        scanner.close();
     }
 }
