@@ -1,11 +1,3 @@
-/* Exercício 3
-
- Receba duas notas, calcule a média aritmética entre as
-notas e imprima o resultado:
-
-"Aprovado" (média >= 6.0); ou
-"Exame" (média < 6.0). */
-
 import java.util.Scanner;
 
 public class Ex3 {
@@ -18,13 +10,12 @@ public class Ex3 {
         System.out.println("Digite a segunda nota: ");
         double n2 = scanner.nextDouble();
 
-        double media = (n1 + n2) / 2;
+        System.out.println("Digite a terceira nota: ");
+        double n3 = scanner.nextDouble();
 
-        if (media >= 6.0) {
-            System.out.println("Aprovado!");
-        } else {
-            System.out.println("Exame!");
-        }
+        double media = (n1 + n2 + n3) / 3;
+
+        System.out.printf("A média das três notas é: %.2f", media);
 
         scanner.close();
     }

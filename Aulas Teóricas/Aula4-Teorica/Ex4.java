@@ -1,3 +1,11 @@
+/* Exercício 4 
+
+Receba duas notas, calcule a média aritmética entre as
+notas e imprima o resultado:
+
+"Aprovado" (média >= 6.0); ou
+"Exame" (média < 6.0). */ 
+
 import java.util.Scanner;
 
 public class Ex4 {

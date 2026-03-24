@@ -6,6 +6,6 @@ public class Ex6 {
 
         System.out.println(primG + ", " + segunG + ", " + terceG);
 
-        //System.out.printf("Valor recebido pelo primeiro ganhador: %.2f, Valor recebido pelo segundo ganhador: %.2f%, Valor recebido pelo terceiro ganhador: .2f", primG, segunG, terceG);
+        //System.out.printf("Valor recebido pelo primeiro ganhador: %.2f, Valor recebido pelo segundo ganhador: %.2f%, Valor recebido pelo terceiro ganhador: %.2f", primG, segunG, terceG);
     }
 }

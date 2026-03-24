@@ -1,3 +1,8 @@
+/* Exercício 8
+
+Receba três valores (A, B, C) e informe esses mesmos
+valores em ordem crescente. */
+
 import java.util.Scanner;
 
 public class Ex8 {

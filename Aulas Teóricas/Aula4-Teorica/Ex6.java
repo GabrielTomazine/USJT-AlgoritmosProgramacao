@@ -1,3 +1,9 @@
+/* Exercício 6 
+
+Leia o ano de nascimento de uma pessoa e o ano atual.
+Informe se ela já tem idade para votar (16 anos ou mais) e se possui
+idade para dirigir (18 anos ou mais). */
+
 import java.util.Scanner;
 
 public class Ex6 {

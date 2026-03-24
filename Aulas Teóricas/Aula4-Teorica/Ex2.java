@@ -1,3 +1,8 @@
+/* Exercício 2
+
+Receba um número inteiro e exiba se ele é Positivo ou
+Negativo (considere zero como positivo). */
+
 import java.util.Scanner;
 
 public class Ex2 {

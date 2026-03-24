@@ -1,3 +1,9 @@
+/* Exercício 7
+
+Receba três valores (A, B, C) e verifique se eles podem
+formar um triângulo (A soma de dois lados deve ser sempre maior que
+o terceiro). */
+
 import java.util.Scanner;
 
 public class Ex7 {

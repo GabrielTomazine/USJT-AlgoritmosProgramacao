@@ -1,3 +1,8 @@
+/* Exercício 5
+
+ Receba um número e informe se ele é múltiplo de 5 e
+múltiplo de 3 ao mesmo tempo. */
+
 import java.util.Scanner;
 
 public class Ex5 {
