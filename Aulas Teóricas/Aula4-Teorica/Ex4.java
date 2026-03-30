@@ -4,7 +4,10 @@ Receba duas notas, calcule a média aritmética entre as
 notas e imprima o resultado:
 
 "Aprovado" (média >= 6.0); ou
-"Exame" (média < 6.0). */ 
+"Exame" (média < 6.0). 
+
+Obs: Sem Else
+*/ 
 
 import java.util.Scanner;
 

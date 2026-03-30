@@ -25,7 +25,7 @@ public class Ex7 {
             
         } else {
 
-            System.out.println("Não possível formar um triângulo!");
+            System.out.println("Não é possível formar um triângulo!");
 
         }
         

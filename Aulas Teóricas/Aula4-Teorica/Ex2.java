@@ -1,7 +1,7 @@
 /* Exercício 2
 
-Receba um número inteiro e exiba se ele é Positivo ou
-Negativo (considere zero como positivo). */
+Receba a idade de um nadador e imprima "Categoria
+Adulta" se ele tiver 18 anos ou mais. */
 
 import java.util.Scanner;
 
