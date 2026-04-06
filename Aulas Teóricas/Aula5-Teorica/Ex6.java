@@ -4,33 +4,22 @@ public class Ex6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite o peso (em kg): ");
-        double peso = scanner.nextDouble();
+        System.out.println("Digite a idade: ");
+        int idade = scanner.nextInt();
 
-        System.out.println("Digite a altura (em metros): ");
-        double altura = scanner.nextDouble();
+        if (idade >= 5 && idade <= 10) {
+            System.out.println("Infantil");
 
-        double imc = peso / (altura * altura);
+        } else if (idade >= 11 && idade <= 17) {
+            System.out.println("Juvenil");
 
-        if (imc <= 18.5) {
-            System.out.println("Abaixo do peso");
-
-        } else if (imc >= 18.5 && imc <= 24.9){
-            System.out.println("Peso normal");
-
-        } else if (imc >= 25 && imc >= 29.9){
-            System.out.println("Sobrepeso (Pré-obesidade)");
-
-        } else if (imc >= 30 && imc >= 34.9){
-            System.out.println("Obesidade Grau I");
-
-        } else if (imc >= 35 && imc >= 39.9){
-            System.out.println("Obesidade Grau II");
+        } else if (idade >= 18) {
+            System.out.println("Sênior");     
 
         } else {
-            System.out.println("Obesidade Grau III (Mórbida)");
-        }
+            System.out.println("Não Classificado");
 
+        }
         scanner.close();
     }
 }
